@@ -31,8 +31,10 @@ class CalculadoraConversion(CalculadoraTrigonometrica):
         #Convertir grados fahrenheit a celsius
         return (a-32)/1.8
     
-    def pulgadas2centimetros(a):
+    def pulgadas2centimetros(self, a):
         return a*2.54
+
+
 
 
 
